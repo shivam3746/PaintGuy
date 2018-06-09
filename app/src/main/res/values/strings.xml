@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PaintGuy</string>
+    <string name="welcome" font="@font/abel">""We fill colors in your Life""</string>
+    <string name="locate" font="@font/abel">Wisconsin,U.S.A, 54101</string>
+    <string name="mail" font="@font/abel">info@paint_guy.com</string>
+    <string name="phone" font="@font/abel">+1 6789657770</string>
+    <string name="business_info" font="@font/abel">Call us or Drop us an email to get your houses paint.We use modern equipments and provide skilled workers to meet the expectation of Quality work.</string>
+    <string name="follow" font="@font/abel">Follow us on:</string>
+</resources>

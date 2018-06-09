@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--For ImageViews-->
+        <dimen name="image1_layout_height">50dp</dimen>
+        <dimen name="image1_layout_width">58dp</dimen>
+        <dimen name="image1_layout_marginTop">17dp</dimen>
+        <dimen name="image2_layout_height">181dp</dimen>
+        <dimen name="image2_layout_marginLeft">10dp</dimen>
+        <dimen name="image2_layout_marginRight">10dp</dimen>
+        <dimen name="image2_layout_marginTop">75dp</dimen>
+
+        <!--Contact INFO-->
+        <dimen name="image3_layout_marginLeft">30dp</dimen>
+        <dimen name="image3_layout_marginTop">20dp</dimen>
+        <dimen name="image4_layout_marginLeft">30dp</dimen>
+        <dimen name="image4_layout_marginTop">10dp</dimen>
+        <dimen name="image5_layout_marginLeft">30dp</dimen>
+        <dimen name="image5_layout_marginTop">10dp</dimen>
+
+        <!--Social Media Section-->
+        <dimen name="image6_7_8_layout_marginLeft_Start">5dp</dimen>
+
+
+    <!--For TextViews-->
+         <dimen name="text1_margin_Top">5dp</dimen>
+         <dimen name="text1_text_size">23sp</dimen>
+
+         <!--Contact INFO-->
+         <dimen name="text2_3_4_margin_Left_Start">15dp</dimen>
+         <dimen name="text2_margin_Top">22dp</dimen>
+         <dimen name="text2_margin_Bottom">220dp</dimen>
+         <dimen name="text3_margin_Top">63dp</dimen>
+         <dimen name="text3_margin_Bottom">180dp</dimen>
+         <dimen name="text4_margin_Top">104dp</dimen>
+         <dimen name="text4_margin_Bottom">140dp</dimen>
+         <dimen name="text2_3_4_text_size">20sp</dimen>
+
+         <dimen name="text5_margin_Left_Start">10dp</dimen>
+         <dimen name="text5_margin_Right_End">5dp</dimen>
+         <dimen name="text5_margin_Top">170dp</dimen>
+         <dimen name="text5_margin_Bottom">67dp</dimen>
+         <dimen name="text5_text_size">20sp</dimen>
+
+         <!--Social Media Section-->
+         <dimen name="linear_layout_margin_Top">320dp</dimen>
+         <dimen name="text6_margin_Left_Start">155dp</dimen>
+         <dimen name="text6_text_size">18sp</dimen>
+
+
+
+</resources>

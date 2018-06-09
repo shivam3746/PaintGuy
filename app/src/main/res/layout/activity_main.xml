@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="ContentDescription"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/image1_layout_width"
+        android:layout_height="@dimen/image1_layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/image1_layout_marginTop"
+        android:src="@drawable/paint_brush" />
+
+    <ImageView
+        android:id="@+id/wall1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image2_layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/image2_layout_marginRight"
+        android:layout_marginLeft="@dimen/image2_layout_marginLeft"
+        android:layout_marginRight="@dimen/image2_layout_marginRight"
+        android:layout_marginStart="@dimen/image2_layout_marginLeft"
+        android:layout_marginTop="@dimen/image2_layout_marginTop"
+        android:scaleType="fitXY"
+        android:src="@drawable/wall" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wall1"
+        android:layout_marginTop="@dimen/text1_margin_Top"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/basic"
+        android:textSize="@dimen/text1_text_size"
+        app:fontFamily="@font/abel"
+        android:textStyle="bold"/>
+
+ <!--Contact INFO-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tagline">
+
+        <ImageView
+            android:id="@+id/calling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/image3_layout_marginLeft"
+            android:layout_marginStart="@dimen/image3_layout_marginLeft"
+            android:layout_marginTop="@dimen/image3_layout_marginTop"
+            android:src="@drawable/phone_receiver" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text2_margin_Bottom"
+            android:layout_marginLeft="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginStart="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginTop="@dimen/text2_margin_Top"
+            android:layout_toEndOf="@+id/calling"
+            android:layout_toRightOf="@+id/calling"
+            android:text="@string/phone"
+            android:textColor="@color/basic"
+            android:textSize="@dimen/text2_3_4_text_size"
+            android:textStyle="bold"
+             />
+
+        <ImageView
+            android:id="@+id/locating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calling"
+            android:layout_marginLeft="@dimen/image4_layout_marginLeft"
+            android:layout_marginStart="@dimen/image4_layout_marginLeft"
+            android:layout_marginTop="@dimen/image4_layout_marginTop"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text3_margin_Bottom"
+            android:layout_marginLeft="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginStart="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginTop="@dimen/text3_margin_Top"
+            android:layout_toEndOf="@+id/locating"
+            android:layout_toRightOf="@+id/locating"
+            android:text="@string/locate"
+            android:textColor="@color/basic"
+            android:textSize="@dimen/text2_3_4_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mailing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/locating"
+            android:layout_marginLeft="@dimen/image5_layout_marginLeft"
+            android:layout_marginStart="@dimen/image5_layout_marginLeft"
+            android:layout_marginTop="@dimen/image5_layout_marginTop"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text4_margin_Bottom"
+            android:layout_marginLeft="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginStart="@dimen/text2_3_4_margin_Left_Start"
+            android:layout_marginTop="@dimen/text4_margin_Top"
+            android:layout_toEndOf="@+id/mailing"
+            android:layout_toRightOf="@+id/mailing"
+            android:text="@string/mail"
+            android:textColor="@color/basic"
+            android:textSize="@dimen/text2_3_4_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/text5_margin_Bottom"
+            android:layout_marginEnd="@dimen/text5_margin_Right_End"
+            android:layout_marginLeft="@dimen/text5_margin_Left_Start"
+            android:layout_marginRight="@dimen/text5_margin_Right_End"
+            android:layout_marginStart="@dimen/text5_margin_Left_Start"
+            android:layout_marginTop="@dimen/text5_margin_Top"
+            android:text="@string/business_info"
+            android:textColor="@color/basic"
+            android:textSize="@dimen/text5_text_size"
+            android:textStyle="bold"
+            app:fontFamily="@font/abel"
+            android:textAlignment="gravity"/>
+        <!--Social Media Section-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/linear_layout_margin_Top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/text6_margin_Left_Start"
+                android:layout_marginStart="@dimen/text6_margin_Left_Start"
+                android:text="@string/follow"
+                android:textColor="@color/basic"
+                android:textSize="@dimen/text6_text_size"
+                android:textStyle="bold"
+                app:fontFamily="@font/abel" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:layout_marginStart="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:layout_marginStart="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:layout_marginStart="@dimen/image6_7_8_layout_marginLeft_Start"
+                android:src="@drawable/linkedin" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
